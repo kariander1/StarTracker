@@ -53,7 +53,7 @@ void Antenna::setCoordinatesAsync(const Point& coordinates)
 	while (servo_el.IsPointing() || stepper_az.IsPointing())
 	{
 		for (int i = 0; ((double)i)*((double)1/count_ratio) <1 ; i++)
-		{
+		{//Temp comment
 			servo_el.SetAngleStep();
 			this->coordinates.y = servo_el.GetAngle();
 		}

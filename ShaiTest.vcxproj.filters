@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ShaiTest.ino" />
+    <None Include="StarTracker.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ShaiTest.vsarduino.h">
